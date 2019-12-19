@@ -148,7 +148,7 @@ html {
         font-family: 'Montserrat Subrayada', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
-        padding-top: 200px;
+        padding-top: 15%;
         color: rgb(255, 237, 246);
         animation: fadeIn 1s ease-in both;
         @media (max-width: 1199.98px) {
@@ -213,8 +213,8 @@ html {
         margin: 0 auto;
         text-transform: uppercase;
         font-family: 'Montserrat Subrayada', sans-serif;
-        height: 70px;
-        padding-top: 20px;
+        height: 7%;
+        padding-top: 10px;
         font-weight: bold;
         font-size: 20px;
         outline: none;
@@ -251,8 +251,7 @@ html {
 
     .cv_about {
       max-width: 100%;
-      background: url("../img/transparent-cigarette-smoke-png-5 (1).png") no-repeat 50%;
-
+      background: url("../img/transparent-cigarette-smoke.png") no-repeat 50%;
       background-size: cover;
       padding-bottom: 3%;
       padding-top: 5%;
