@@ -23,7 +23,7 @@ html {
     header {
       height: 100vh;
       width: 100%;
-      background: url("../img/photo-1512089425728-b012186ab3cc.jpg") no-repeat, 100%;
+      background: url("../img/photo-1512089425728-b012186ab3cc.jpg") no-repeat,100%;
       background-size: cover;
       @media (max-width: 740.98px) {
         padding-bottom: 100px;
@@ -155,6 +155,10 @@ html {
           padding-top: 100px;
           font-size: 4vw;
         }
+        @media (max-height: 980.98px) {
+          padding-top: 200px;
+          font-size: 4.5vw;
+        }
 
         @media (max-width: 767.98px) {
           font-size: 30px;
@@ -191,7 +195,9 @@ html {
         font-family: 'Niconne', 'sans-serif';
         animation: fadeIn 1s ease-in both;
         font-size: 3.2vw;
-
+        @media (max-height: 980.98px) {
+          font-size: 30px;
+        }
         @media (max-width: 767.98px) {
           font-size: 15px;
           padding-top: 2%;
@@ -357,8 +363,8 @@ html {
         h2 {
           font-family: 'Aclonica', sans-serif;
           font-weight: bold;
-          padding-top: 10%;
-          padding-bottom: 5%;
+          padding-top: 5%;
+          padding-bottom: 1%;
           color: rgb(56, 56, 56);
           font-size: 4rem;
           text-align: center;
@@ -374,15 +380,16 @@ html {
           margin: 0 auto;
           font-size: 20px;
           font-family: 'Raleway', sans-serif;
-          padding-bottom: 2%;
+          padding-bottom: 1%;
           @media (max-width: 575.98px) {
             font-size: 1rem;
 
           }
         }
         .cv_works_slider {
-          width: 100%;
-          height: 60%;
+          width: 70%;
+          margin: 0 auto;
+
 
           .cv_works_layer {
             background: rgba(16, 16, 16, 0.28);
@@ -417,7 +424,7 @@ html {
             }
             img {
               width: 100%;
-              height: 800px;
+              height: 700px;
               @media (max-width: 575.98px) {
                 height: 400px;
               }
@@ -514,7 +521,7 @@ html {
     }
     .cv_contact {
       background: url("../img/kyiv-city-at-night-ukraine-3.jpg") no-repeat, 100%;
-      height: 100%;
+      height: 100vh;
       color: white;
       background-size: cover;
       padding-bottom: 2%;
