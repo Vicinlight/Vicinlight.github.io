@@ -423,6 +423,10 @@ html {
               height: 200px;
               padding-bottom: 20px;
               padding-right: 10px; }
+              @media (max-width: 575.98px) {
+                html body main .cv_resume .cv_resume_tabs__cont .cv_resume_cont__text .cv_resume__cont__text-img {
+                  height: 100px;
+                  padding: 0; } }
           html body main .cv_resume .cv_resume_tabs__cont .cv_resume_modal {
             display: inline-block;
             width: 35%; }
