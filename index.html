@@ -81,25 +81,25 @@
         <div class="row">
             <h2 class="cv_skills_title">What do I use</h2>
         </div>
-        <div class="row cv_skills_elem">
+
+        <div class="row cv_skills_elem flex-row-reverse">
+            <div class="col-md-5">
+                <img class="cv_skills__img img-fluid mx-auto" alt="500x500"
+                     src="img/View-HTML.jpg" data-holder-rendered="true">
+            </div>
             <div class="col-md-7">
                 <h3 class="text-right">Html 5</h3>
                 <p class="lead text-right">Hypertext Markup Language (HTML) is the standard markup language for
                     documents designed to be displayed in a web browser. It can be assisted by technologies such as
                     Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-
                     Web browsers receive HTML documents from a web server or from local storage and render the documents
                     into multimedia web pages. HTML describes the structure of a web page semantically and originally
                     included cues for the appearance of the document.</p>
             </div>
-            <div class="col-md-5">
-                <img class="cv_skills__img img-fluid mx-auto" alt="500x500"
-                     src="img/View-HTML.jpg" data-holder-rendered="true">
-            </div>
         </div>
 
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem ">
             <div class="col-md-5 pull-md-7">
                 <img class="cv_skills__img img-fluid mx-auto" alt="500x500" src="img/CSS.jpg"
                      data-holder-rendered="true">
@@ -116,7 +116,11 @@
             </div>
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem flex-row-reverse">
+            <div class="col-md-5">
+                <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                     src="img/sass.jpg" data-holder-rendered="true">
+            </div>
             <div class="col-md-7">
                 <h3 class="text-right">Sass </h3>
                 <p class="lead text-right">Sass (short for syntactically awesome style sheets) is a style sheet language
@@ -130,13 +134,10 @@
                     code blocks and semicolons to separate lines within a block. The indented syntax and SCSS files are
                     traditionally given the extensions .sass and .scss, respectively.</p>
             </div>
-            <div class="col-md-5">
-                <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-                     src="img/sass.jpg" data-holder-rendered="true">
-            </div>
+
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem ">
             <div class="col-md-5 pull-md-7">
                 <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
                      src="img/Js.jpg"
@@ -153,7 +154,11 @@
             </div>
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem flex-row-reverse">
+            <div class="col-md-5">
+                <img class="img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="img/jquery.jpg"
+                     data-holder-rendered="true">
+            </div>
             <div class="col-md-7">
                 <h3 class="text-right">JQuery </h3>
                 <p class="lead text-right">jQuery is a fast, small, and feature-rich JavaScript library. It makes things
@@ -161,13 +166,9 @@
                     an easy-to-use API that works across a multitude of browsers. With a combination of versatility and
                     extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
             </div>
-            <div class="col-md-5">
-                <img class="img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="img/jquery.jpg"
-                     data-holder-rendered="true">
-            </div>
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem ">
             <div class="col-md-5 pull-md-7">
                 <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
                      src="img/nodejs.jpg"
@@ -184,7 +185,11 @@
             </div>
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem flex-row-reverse">
+            <div class="col-md-5">
+                <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                     src="img/gulp.jpg" data-holder-rendered="true">
+            </div>
             <div class="col-md-7">
                 <h3 class="text-right">Gulp</h3>
                 <p class="lead text-right">Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as
@@ -195,13 +200,9 @@
                     relies on its small, single-purpose plugins to carry them out. The gulp ecosystem includes more than
                     3500 such plugins.</p>
             </div>
-            <div class="col-md-5">
-                <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-                     src="img/gulp.jpg" data-holder-rendered="true">
-            </div>
         </div>
 
-        <div class="row cv_skills_elem">
+        <div class="row cv_skills_elem ">
             <div class="col-md-5 pull-md-7">
                 <img class="cv_skills__img img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
                      src="img/bootstrap.jpg"
@@ -216,6 +217,7 @@
                     307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap
                     getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.</p>
             </div>
+
         </div>
 
     </div>
@@ -311,10 +313,10 @@
                            aria-controls="cv_certificates">Certificates</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-7">
                     <div class="cv_resume_tabs__cont tab-content" id="nav-tabContent">
                         <div class="cv_resume_cont__text tab-pane fade show active" id="cv_skills" role="tabpanel"
-                             aria-labelledby="list-home-list"><h3 class="h3">PERSONAL SKILLS </h3>
+                             aria-labelledby="list-home-list"><h3 class="h3">Personal Skills</h3>
                             <p>
                                 • User interface understanding<br>
                                 • Self-motivated<br>
@@ -324,7 +326,7 @@
                                 • Skilled in Software<br>
                             </p></div>
                         <div class="cv_resume_cont__text tab-pane fade" id="cv_education" role="tabpanel"
-                             aria-labelledby="list-profile-list"><h3 class="h3">EDUCATION </h3>
+                             aria-labelledby="list-profile-list"><h3 class="h3">Education </h3>
                             <p>
                                 <b>Junior – Front End Development</b>
                                 –<br> HTML/CSS, JavaScript
