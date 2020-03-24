@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Concert+One|Lobster|Raleway:400,400i,500|Aclonica|Bevan|Days+One|Fondamento:400,400i|Fredericka+the+Great|Italianno|Knewave|Lilita+One|Montserrat+Subrayada:400,700|Montserrat:300,300i,400,400i,500,500i,700,800|Niconne|Dancing+Script|Tomorrow|Turret+Road:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat+Subrayada|Raleway:400,400i,500|Tomorrow:400,400i,500&display=swap');
 
 $enable-responsive-font-size: true;
 @keyframes fadeIn {
@@ -208,7 +208,7 @@ html {
         margin: 0 auto;
         padding-top: 2%;
         padding-bottom: 3%;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
         font-weight: bold;
         animation: fadeIn 1s ease-in both;
         font-size: 2.1vw;
